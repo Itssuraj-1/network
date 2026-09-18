@@ -4,6 +4,7 @@ import java.net.UnknownHostException;
 public class Ipcheck{
     public static void main(String[] args){
         try{
+            //InetAddress iad = InetAddress.getByName("thapasuraj8848.com.np");
             InetAddress iad = InetAddress.getLocalHost();
             byte[] ipa = iad.getAddress();
 
